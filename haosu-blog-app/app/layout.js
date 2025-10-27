@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${Outfit.variable} antialiased`}
+        className={`${outfit.variable} antialiased`}
       >
         {children}
       </body>
